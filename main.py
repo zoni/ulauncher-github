@@ -1,4 +1,5 @@
 """ GitHub Ulauncher Extension """
+import gi; gi.require_version('Gdk', '3.0') # https://github.com/Ulauncher/Ulauncher/issues/703
 import json
 import logging
 import os
